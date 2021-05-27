@@ -5,6 +5,6 @@
 -   `docker container diff <id>`
 -   `docker container commit <id>`
 -   `docker image ls`
--   `docker image tag <id> <tag-name-or-tag-registeri>` (tag name e.g. pooyagolchian/myapp[name]:v1.0[version])
+-   `docker image tag <id> <tag-name-or-tag-registeri>` (tag name e.g. pooyagolchian/myapp:v1.0 | [name]:[version])
 -   `docker login`
 -   `docker push <image-name>`
