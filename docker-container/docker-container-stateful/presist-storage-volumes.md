@@ -13,5 +13,13 @@ This file is about MySql presist data.
 ### Persist Strorage example with MySql
 
 -   `docker run --name pooya-mysql -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mypasswd -d mysql:latest`
+
+### Persist data in local machine dir
+
+-   `docker run --name test-mysql -v /home/pooyagolchian/test-dir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mypasswd -d mysql:latest`
+
+### Check the data in container
+
+-   `docker ps -a`
 -   `docker exec -it pooya-mysql` /bin/bash
 -   `cd /var/lib/mysql`
