@@ -2,4 +2,5 @@
 
 -   Install docker
 -   Useful command
--   Container (build & image)
+-   Stateless Docker container (build & image)
+-   Stateful Docker container (build & image)
